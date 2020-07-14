@@ -1,0 +1,177 @@
+.titulo_caixa
+{
+    font-family: tahoma;
+    font-size:10px;
+    color:white;
+    background-color:#555555;
+    text-align:center;
+    font-weight:bold;
+    text-transform: uppercase;
+    height:16px;
+}
+
+.cad_title
+{
+    font-family: tahoma;
+    font-size:12px;
+    color:#FFFFFF;
+    padding:3px;
+    border:1px solid #999999;
+    background-color:#DDDDDD;
+    background-image:url('images/fundo_cad.gif');
+    text-align:center;
+    font-weight:bold;
+    text-transform: uppercase;
+    height:20px;
+}
+
+.field_caption
+{
+    font-family: tahoma;
+    font-size:12px;
+    color:#444444;
+}
+
+.common
+{
+    font-family: tahoma;
+    font-size:12px;
+    color:#444444;
+}
+
+.aviso
+{
+    font-family: tahoma;
+    font-size:12px;
+    font-weight: bold;
+    color:red;
+    text-align:center;
+}
+
+.aviso_light
+{
+    font-family: tahoma;
+    font-size:10px;
+    color:#555555;
+}
+
+.titulo
+{
+    font-family: tahoma;
+    font-size:20px;
+    color:#444444;
+    font-weight: bold;
+}
+
+.subtitulo
+{
+    font-family: tahoma;
+    font-size:14px;
+    color:#444444;
+    font-weight: bold;
+}
+
+.menu_option
+{
+    font-family: tahoma;
+    font-size:12px;
+    color:#444444;
+    background-color:#EEEEEE;
+    cursor: pointer;
+    text-align:center;
+    font-weight:bold;
+    height:22px;
+}
+
+.group_label
+{
+    font-family: tahoma;
+    font-size:16px;
+    color:#444444;
+    font-weight: bold;
+}
+
+a
+{
+    font-family: tahoma;
+    font-size:12px;
+    color:#0000BB;
+    text-decoration:none;
+}
+
+
+a:hover
+{
+    font-family: tahoma;
+    font-size:12px;
+    color:#0000BB;
+    text-decoration:underline;
+}
+
+a:visited
+{
+    font-family: tahoma;
+    font-size:12px;
+    color:#0000BB;
+    text-decoration:none;
+}
+
+hr
+{
+    noshade;
+    height:1px;
+}
+
+.table_title
+{
+    font-family: tahoma;
+    font-size:12px;
+    color:#444444;
+    border:1px solid #AAAAAA;
+    background-color:#DDDDDD;
+    text-align:left;
+    font-weight:bold;
+    height:20px;
+}
+
+.table_title_light
+{
+    font-family: tahoma;
+    font-size:11px;
+    color:#444444;
+    border:1px solid #AAAAAA;
+    background-color:#EEEEEE;
+    text-align:left;
+    font-weight:normal;
+    height:16px;
+}
+.table_results
+{
+    font-family: tahoma;
+    font-size:9px;
+    color:#444444;
+    background-color:#DDDDDD;
+    height:14px;
+}
+
+.table_item0
+{
+    font-family: tahoma;
+    font-size:11px;
+    color:#444444;
+    border:1px solid #AAAAAA;
+    background-color:#FFFFFF;
+    text-align:left;
+    height:15px;
+}
+
+.table_item1
+{
+    font-family: tahoma;
+    font-size:11px;
+    color:#444444;
+    border:1px solid #AAAAAA;
+    background-color:#EEEEEE;
+    text-align:left;
+    height:15px;
+}

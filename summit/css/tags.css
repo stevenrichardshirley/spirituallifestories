@@ -1,0 +1,123 @@
+/*
+ * Dynamic Tags for jQuery 1.3+
+ * http://bigbadcollab.com
+ *
+ * Copyright 2012 BigBadCollab
+ * You need to buy a license if you want use this script outside of Summit.
+ *
+ * Version: 1.6 (Mar 13 2012)
+ */
+ 
+#tags {
+	background: none;
+	border: 1px dotted #B9B8B2;
+	padding: 10px;
+}
+
+.tag_title {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0;
+	margin: 0;
+}
+
+.tag_title .tag_description {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #adadad;
+	font-size: 12px;
+}
+
+.tag_form {
+	width: 400px;
+	height: 90px;
+	background: #fff;
+	
+	font-family: Helvetica, Arial, sans-serif;
+	color: #adadad;
+	font-size: 12px;
+	line-height: 30px;
+	padding: 5px 10px 5px 10px;
+	margin: 10px 0 10px 0;
+	border: 1px solid #ddd;
+	cursor: text;
+	
+	-webkit-transition-property: color, -webkit-box-shadow;
+	-moz-transition-property: color, -moz-box-shadow;
+	-ms-transition-property: color, -moz-box-shadow;
+	transition-property: color, -moz-box-shadow;
+	
+	-webkit-transition-duration: 0.3s;
+	-moz-transition-duration: 0.3s;
+	-ms-transition-duration: 0.3s;
+	transition-duration: 0.3s;
+}
+
+input.tag_form {
+	height: 25px;
+	margin-bottom: 20px;
+	outline: 0px solid black;
+}
+textarea.tag_form {
+	outline: 0px solid black;
+	line-height: 1.5em;
+	resize: none;
+}
+
+	
+	.tag_form input[type=text][name=add_tag] {
+		height: 25px;
+		width: 100px;
+		border-width: 0;
+		background: transparent;
+		outline: 0px solid black;
+		color: #adadad;
+	}
+	
+	.tag_form input[type=text][name=add_tag]:focus {
+		color: #75628F;
+	}
+	
+	
+		
+	.tag_form .clear {
+		clear: both;
+	}
+	
+	
+		.tag {
+			list-style: none;
+			display: inline-block;
+			height: 25px;
+			min-width: 10px;
+			margin-right: 5px;
+			margin-bottom: 5px;
+			font-family: Helvetica, Arial, sans-serif;
+			color: #fff;
+			font-size: 11px;
+			font-weight: normal;
+			text-decoration: none;
+			font-style: normal;
+			line-height: 22px;
+			text-shadow: 0 1px 0 rgba(73,60,95,.8);
+	
+			padding: 0 10px 0 20px;
+			position: relative;
+		}
+		
+		.tag:after {
+			position: absolute;
+			right: 0;
+			content: '';
+			height: 22px;
+			width: 1px;
+			background: #493C5F;
+		}
+
+		.tag_form_click_remove .tag {
+			cursor: pointer;
+		}
+		
+	.tag {
+		background: url(../images/tag.png) no-repeat;
+	}

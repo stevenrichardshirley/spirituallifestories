@@ -1,0 +1,301 @@
+.titulo_caixa
+{
+    font-family: arial;
+    font-size:11px;
+    color:white;
+    background-color:#2995D3;
+    text-align:center;
+    text-transform: uppercase;
+    padding:2px;
+    border:1px solid black;
+}
+
+.cad_title
+{
+    font-family: arial;
+    font-size:12px;
+    background-color:#2995D3;
+    color:white;
+    border:1px solid #BBBBBB;
+    text-align:center;
+    background-image:url('images/fundo_cad.gif');
+    text-transform: uppercase;
+    padding:3px;
+}
+
+.cad_area
+{
+    background-color:white; 
+    padding:10px; 
+    border:1px solid #BBBBBB;
+}
+
+.field_caption
+{
+    font-family: arial;
+    font-size:12px;
+    color:#000000;
+}
+
+.aviso
+{
+    font-family: arial;
+    font-size:12px;
+    font-weight: bold;
+    color:#FF0000;
+    text-align:center;
+}
+
+.aviso_light
+{
+    font-family: arial;
+    font-size:10px;
+    color:#555555;
+}
+
+.titulo
+{
+    font-family: arial;
+    font-size:20px;
+    color:#444444;
+    font-weight: bold;
+}
+
+.subtitulo
+{
+    font-family: arial;
+    font-size:14px;
+    color:#444444;
+    font-weight: bold;
+}
+
+.menu_option
+{
+    font-family: arial;
+    font-size:12px;
+    color:#000000;
+    background-color:#D5DDFF;
+    border:1px solid black;
+    cursor: pointer;
+    text-align:left;
+    font-weight:bold;
+    height:28px;
+    padding:5px;
+}
+
+.group_label
+{
+    font-family: arial;
+    font-size:16px;
+    color:#000044;
+    font-weight: bold;
+}
+
+a
+{
+    font-family: arial;
+    font-size:12px;
+    color:#0000BB;
+    text-decoration:none;
+}
+
+a:hover
+{
+    font-family: arial;
+    font-size:12px;
+    color:#2222FF;
+    text-decoration:underline;
+}
+
+hr
+{
+    noshade;
+    height:1px;
+}
+
+.table_title
+{
+    font-family: arial;
+    font-size:12px;
+    color:#000000;
+    border:1px solid #000000;
+    background-color:#CCDDFF;
+    text-align:left;
+    font-weight:bold;
+    height:20px;
+    padding:5px;
+}
+
+.table_title_light
+{
+    font-family: arial;
+    font-size:11px;
+    color:#444444;
+    border-bottom:1px solid #AAAAAA;
+    background-color:#EEEEEE;
+    text-align:left;
+    font-weight:none;
+    padding:5px;
+}
+.table_results
+{
+    font-family: arial;
+    font-size:9px;
+    color:#444444;
+    background-color:#DDDDDD;
+    height:14px;
+}
+
+.table_item0
+{
+    font-family: arial;
+    font-size:11px;
+    color:#000000;
+    border:none;
+    background-color:#FFFFFF;
+    text-align:left;
+    padding:5px;
+}
+
+.table_item1
+{
+    font-family: arial;
+    font-size:11px;
+    color:#000000;
+    border:none;
+    background-color:#EEEEEE;
+    text-align:left;
+    padding:5px;
+}
+
+.table_item_venda_pendente
+{
+    font-family: arial;
+    font-size:11px;
+    color:#000000;
+    border:none;
+    background-color:#00A2E8;
+    text-align:left;
+    padding:5px;
+}
+
+.table_item_venda_orcamento
+{    
+    font-family: arial;
+    font-size:11px;
+    color:#000000;
+    border:none;
+    background-color:#FFFFFF;
+    text-align:left;
+    padding:5px;
+}
+
+.table_item_venda_expedicao
+{    
+    font-family: arial;
+    font-size:11px;
+    color:#000000;
+    border:none;
+    background-color:#FFFFFF;
+    text-align:left;
+    padding:5px;
+}
+
+.table_item_venda_teste
+{
+    font-family: arial;
+    font-size:11px;
+    color:#000000;
+    border:none;
+    background-color:#FFFFFF;
+    text-align:left;
+    padding:5px;
+}
+
+.table_item_venda_emfaturamento
+{
+    font-family: arial;
+    font-size:11px;
+    color:#000000;
+    border:none;
+    background-color:#99D9EA;
+    text-align:left;
+    padding:5px;
+}
+
+.table_item_venda_cancelada
+{
+    font-family: arial;
+    font-size:11px;
+    color:#000000;
+    border:none;
+    background-color:#E00000;
+    text-align:left;
+    padding:5px;
+}
+
+.table_item_venda_concluida
+{
+    font-family: arial;
+    font-size:11px;
+    color:#000000;
+    border:none;
+    background-color:#B5E61D;
+    text-align:left;
+    padding:5px;
+}
+                    
+.table_item_venda_emseparacao
+{
+    font-family: arial;
+    font-size:11px;
+    color:#000000;
+    border:none;
+    background-color:#FFC90E;
+    text-align:left;
+    padding:5px;
+}
+
+
+.table_item_sel
+{
+    font-family: arial;
+    font-size:11px;
+    color:#000000;
+    border:none;
+    background-color:#FFFF99;
+    text-align:left;
+    padding:5px;
+}
+
+.titulo_premio_capa
+{
+    font-family: arial;
+    font-size:15px;
+    color:#FFFFBB;
+    font-weight:bold;
+}
+
+.descricao_premio_capa
+{
+    font-family: arial;
+    font-size:14px;
+    color:#EEEEEE;
+}
+.common
+{
+    font-family: arial;
+    font-size:12px;
+    color:#000000;
+}
+
+.aviso_capa
+{
+    font-family: arial;
+    font-size:15px;
+    color:#FFFF55;
+    text-align:center;
+    font-weight:bold;
+    padding-top:30px;
+    padding-bottom:600px;
+}

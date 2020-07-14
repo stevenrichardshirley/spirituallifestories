@@ -1,0 +1,29 @@
+<?php
+require 'autoload.php';
+spl_autoload_register( 'bbc_autoload' );
+
+define('IS_DEV', true);
+
+if (IS_DEV == 'true') {
+	define('MEDIA_URL', 'http://localhost:8888/sheila/');
+	define('STATIC_MEDIA_URL', 'http://localhost:8888/sheila/');
+	define('BASE_URL', 'http://localhost:8888/sheila');
+	define('DOCUMENT_DOMAIN', 'localhost:8888/sheila/');
+	define('APP_PATH', '/Users/ben/Sites/projects/sheila/trunk/');
+} else {	
+	define('MEDIA_URL', 'http://sheilawalsh.com/');
+	define('STATIC_MEDIA_URL', 'http://sheilawalsh.com/');
+	define('BASE_URL', 'http://sheilawalsh.com/');
+	define('DOCUMENT_DOMAIN', 'sheilawalsh/');
+	define('APP_PATH', '');
+}
+
+# Media related constants
+
+define('MEDIA_IMG_PATH', MEDIA_URL . 'images/');
+define('MEDIA_CSS_PATH', MEDIA_URL . 'styles/');
+define('MEDIA_JS_PATH', MEDIA_URL . 'scripts/');
+define('THEME_PATH', APP_PATH . 'theme/');
+define('ADMIN_THEME_PATH', APP_PATH . 'admin/theme/');
+define('SSL_ENABLED', false);
+?>
